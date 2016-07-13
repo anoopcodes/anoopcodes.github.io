@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/main.css">
+	<title>Anoop & Souj Wedding Invite</title>
+</head>
+<body ng-app="app">
+	<div ng-controller="appController" ng-init="getTime()">
+		<br/>
+		<div>
+			<span class="heading centerText">Our Wedding Story</span>
+			<span class="timer"><h5><timer countdown="countDown" max-time-unit="'hour'" interval="1000">{{hours}} hr{{hoursS}}, {{mminutes}} min{{minutesS}}, {{sseconds}} sec{{secondsS}}</timer></h5></span>
+		</div>
+
+		<br style="clear:both;"/><br/>
+		
+		<br/>
+		<div>
+			<p class="textStyle centerText">
+				We've been the best buddies since the day we met and are super excited to commit to being best buddies forever. Finally the day has come. Dreams do come true- We're getting married! And so the adventure begins... Together with our parents, we invite you to share our joy and support our love, as we exchange our 7 vows and celebrate our marriage. Please join us for a celebration of love, friendship, laughter and family.<br/>
+			</p>
+			<!-- <img class="weddingCover" src="src/images/proposal1.jpg" /><br/><br/> -->
+			<img style="display: block; margin: auto; width: 95%;" src="src/images/save-the-date22.jpg">
+		<br/><br/>
+
+		<section>
+			<div class="leftContent">
+				<img class="magazine-cover" style="display: block; margin-left: auto; margin-right: auto" src="src/images/wedding_cover.png" w/>
+			</div>
+			<div class="rightContent">
+				<!-- <p class="textStyle centerText">Save the date...</p> -->
+				<p class="textStyle centerText">	
+		        	Wedding: 7th of August, 10:40 AM at Hyndava Nimantran Convention, Between Cine planet & Runway-9, Kompally, Secunderabad
+		      	</p>
+		      	<p class="textStyle centerText">
+		        	Reception: 8th of August, 7 PM onwards at SNR Gardens, near Dholari-dhani, Kompally, Secunderabad<br/>
+
+		        	Fabulous food, fun, and festivities to follow...
+		      </p>
+			</div>
+			
+			<br style="clear:both;"/><br/>
+			<div class="centerText">
+		      	<p class="textStyle">
+		        	You're all invited! <br>
+		        	For those who can't make it to the wedding, online stream will be uploaded soon: 
+			        <!-- <br/><br/>
+		        	<iframe src="" style="border: 0 none transparent;" webkitallowfullscreen="" allowfullscreen="" frameborder="no" width="550" height="420"></iframe> -->
+		      	</p>
+	    	</div>
+		</section>	
+		<br/>
+		<div class="picCredit">
+      		<span>Pic Credit: <a href="http://korada.in/#/">Aditya</a></span>
+    	</div>
+		</div>
+	</div>
+    <script src="src/lib/jquery.min.js"></script>
+	<script src="src/lib/angular.min.js"></script>
+	<script src="src/lib/angular-route.min.js"></script>
+	<script src="src/lib/bootstrap.min.js"></script>
+	<script src="src/lib/ui-bootstrap-tpls-0.13.0.min.js"></script>
+	<script src="src/lib/moment.js"></script>
+	<script src="src/lib/humanize-duration.js"></script>
+	<script src="src/lib/angular-timer.min.js"></script>
+    <script src="src/js/app.js"></script>
+    <script src="src/js/appController.js"></script>
+</body>
+</html>
