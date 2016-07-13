@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/angular-csp.css">
 	<link rel="stylesheet" href="src/css/main.css">
 	<title>Anoop & Souj Wedding Invite</title>
 </head>
@@ -10,7 +11,7 @@
 		<br/>
 		<div>
 			<span class="heading centerText">Our Wedding Story</span>
-			<span class="timer"><h5><timer countdown="countDown" max-time-unit="'hour'" interval="1000">{{hours}} hr{{hoursS}}, {{mminutes}} min{{minutesS}}, {{sseconds}} sec{{secondsS}}</timer></h5></span>
+			<span class="timer" ng-cloak><h5><timer countdown="countDown" max-time-unit="'hour'" interval="1000">{{hours}} hr{{hoursS}}, {{mminutes}} min{{minutesS}}, {{sseconds}} sec{{secondsS}}</timer></h5></span>
 		</div>
 
 		<br style="clear:both;"/><br/>
