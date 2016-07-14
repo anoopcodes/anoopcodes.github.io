@@ -1,13 +1,13 @@
 body {
-	background-image: url('../images/background1.jpg');
-	background-size: 100% 100%;
+	background-image: url('../images/background_image.jpg');
+	background-size: cover;
     background-repeat: no-repeat;
 }
 
 .heading {
 	font-size: 40px; 
 	font-family: papyrus; 
-	color: #FF4040;
+	color: #ffdae0;
 	width: 87%;
 	float: left;
 }
@@ -15,7 +15,7 @@ body {
 .timer {
 	float: right; 
 	width: 13%;
-	color: #FF4040;
+	color: #ffdae0;
 }
 
 .weddingCover {
@@ -38,7 +38,7 @@ body {
 .textStyle {
 	font-size: 20px; 
 	font-family: papyrus; 
-	color: #FF4040; 
+	color: #ffcbd3; 
 	font-weight: bold;
 }
 
@@ -48,4 +48,5 @@ body {
 
 .picCredit {
 	font-family: cursive; 
+	color: #ffcbd3;  
 }
